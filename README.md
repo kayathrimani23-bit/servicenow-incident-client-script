@@ -1,2 +1,6 @@
-# servicenow-incident-client-script
-ServiceNow Incident form Client Script and UI Policy implementation - Milestone 3 onChange
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+  if (isLoading || newValue === '') {
+    return;
+  }
+  // Your logic here - Example: auto populate urgency based on impact
+}
